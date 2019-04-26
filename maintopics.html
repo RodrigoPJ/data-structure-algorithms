@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Main Topics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -11,6 +11,7 @@
       integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg=="
       crossorigin="anonymous"
     />
+    <link rel="icon" type="image/x-icon" href="algorithm_ZLL_icon.ico" />
   </head>
   <body>
     <a class="button" href="./index.html">Back</a>
@@ -47,8 +48,195 @@
         A function is set of commands executed whenever the function is invoked.
         These commands will be part ot the function's body. You can call a
         function inside another one to create more complex functions. Some
-        functions return stuff
+        functions return stuff some don't. Thy execute inside a scope.
       </p>
+      <p>
+        They are not exclusive, functions that belong to a certain object are
+        called methods. However, when talking about programing languages some
+        are better equipped to deal with one or the other. With classes, which
+        are helpful to create and identify objects or with other tools.
+        Javascript was designed as a functional language but has been
+        incorporating OOP capabilities with time, with ES6 including the keyword
+        class to make it more friendly for developers used to work OOP. I'd say
+        OOP is a bigger block for building software than Functions, but you need
+        both.
+      </p>
+      <h3>
+        2.- Complexity analysis; Big O notation
+      </h3>
+      <p>
+        In computer science analysis of algorithms is the determination of
+        computational complexity of algorithms. How much time, storage and
+        computational power they need to achieve the desired solution.
+      </p>
+      <p>
+        It is common to estimate their complexity in the asymptotic sense, like
+        testing for very large inputs. Big O notation, Big-omega notation and
+        big-theta notation are used. For instance, binary search is said to run
+        in a number of steps proportional to the logarithm of the length of the
+        sorted list being searched, or in O(log(n)), colloquially "in
+        logarithmic time".
+      </p>
+      <p>
+        Big O notation is a mathematical notation that describes the limiting
+        behavior of a function when the argument tends towards a particular
+        value or infinity.
+      </p>
+      <p>
+        In computer science, big O notation is used to classify algorithms
+        according to how their running time or space requirements grow as the
+        input size grows.
+      </p>
+      <p>
+        Big O notation characterizes functions according to their growth rates:
+        different functions with the same growth rate may be represented using
+        the same O notation.
+      </p>
+      <p>
+        The letter O is used because the growth rate of a function is also
+        referred to as the order of the function. A description of a function in
+        terms of big O notation usually only provides an upper bound on the
+        growth rate of the function.
+      </p>
+      <h3>
+        3.- Arrays; N-dimensional arrays
+      </h3>
+      <p>
+        In computer science a data structure is a data organization, management
+        and storage format that enables efficient access and modification. More,
+        precisely, a data structure is a collection of data values, the
+        relationships among them and the functions or operations that can be
+        applied.
+      </p>
+      <p>
+        Array is a set of data elements stored under the same name. Arrays can
+        be created to hold any type of data and each element can be individually
+        assigned and read.
+      </p>
+      <p>
+        We can make a simil between arrays and vectors in the sense that they
+        are linear, arranges of values, like one column or line, in computer
+        science we can interpret each of these things as a dimension, so an
+        array can have many dimensions, which mean more components to the
+        address of a certain value, so you may have more complex data
+        structures.
+      </p>
+      <p>
+        These types of arrays are the math equivalent of matrixes, and used to
+        represent almost anything.
+      </p>
+      <h3>
+        4.- Qeues
+      </h3>
+      <p>
+        In computer science, a queue is a collection in which the entities in
+        the collection are kept in order and the principal (or only) operations
+        on the collection are the addition of entities to the rear terminal
+        position, known as enqueue, and removal of entities from the front
+        terminal position, known as dequeue. Queues provide services in computer
+        science, transport, and operations research where various entities such
+        as data, objects, persons, or events are stored and held to be processed
+        later. In these contexts, the queue performs the function of a buffer.
+      </p>
+      <p>
+        Queues are common in computer programs, where they are implemented as
+        data structures coupled with access routines, as an abstract data
+        structure or in object-oriented languages as classes. They are ordered
+        spaces where you "queue" things to later be dealt with. Usually
+        processes for later computing. Queue usually are first in first off.
+      </p>
+      <h3>
+        5.- Stacks
+      </h3>
+      <p>
+        Is an abstract data type that serves as a collection of elements with
+        two distinctive operations: Push: add an element to the end Pop: remove
+        the last element This is also known as last in first out. It is a linear
+        structure.
+      </p>
+      <h3>
+        6.- Linked list
+      </h3>
+      <p>
+        It is a linear collection of data elements whose order is not given by
+        their physical placement in memory but by the previous element. Each
+        space is occupied by two data pieces, the value stored and the address
+        of the next this is called link. In order to access an element you have
+        to go through all the previuos starting in the beginning until finding
+        it.
+      </p>
+      <h3>
+        7.- Merge Sort
+      </h3>
+      <p>
+        This sorting algorithm uses divide and conquer strategy. It takes the
+        list and reduces it until there is a list for each element, then begins
+        comparing one two other making a new sorted list, then we comparing list
+        by list and merging each one until we end with a complete list all
+        sorted.
+      </p>
+      <h3>
+        8.- Heap Sort
+      </h3>
+      <p>
+        Sorting algorithm based on comparison, it finds the largest and stores
+        it in an array and then goes on and find the next largest one and store
+        it again until everything is sorted.
+      </p>
+      <h3>
+        9.- Quick Sort
+      </h3>
+      <p>
+        Quicksort is a divide and conquer algorithm. Quicksort first divides a
+        large array into two smaller sub-arrays: the low elements and the high
+        elements. Quicksort can then recursively sort the sub-arrays. The steps
+        are: Pick an element, called a pivot, from the array. Partitioning:
+        reorder the array so that all elements with values less than the pivot
+        come before the pivot, while all elements with values greater than the
+        pivot come after it (equal values can go either way). After this
+        partitioning, the pivot is in its final position. This is called the
+        partition operation. Recursively apply the above steps to the sub-array
+        of elements with smaller values and separately to the sub-array of
+        elements with greater values.
+      </p>
+      <h3>
+        10.- Hashing
+      </h3>
+      <p>
+        A hash function is any function that can be used to map data of
+        arbitrary size onto data of a fixed size. The values returned by a hash
+        function are called hash values, hash codes, digests, or simply hashes.
+        Hash functions are often used in combination with a hash table, a common
+        data structure used in computer software for rapid data lookup. Hash
+        functions accelerate table or database lookup by detecting duplicated
+        records in a large file.
+      </p>
+      <h3>
+        11.- Maps
+      </h3>
+      <p>
+        An associative array, map, symbol table or dictionary is an abstract
+        data type composed of a collection of (key,value) pairs, such that each
+        possible key appears at most once in the collection.
+      </p>
+      <p>
+        The classic example of these data structure is the dictionary, where you 
+      </p>
+    </div>
+    <div>
+      Icons made by
+      <a href="https://www.flaticon.com/authors/becris" title="Becris"
+        >Becris</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      is licensed by
+      <a
+        href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0"
+        target="_blank"
+        >CC 3.0 BY</a
+      >
     </div>
   </body>
 </html>
